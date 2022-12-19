@@ -1,41 +1,41 @@
-import { buildLegacyTheme } from "sanity";
+import { buildLegacyTheme } from 'sanity';
 
-const gruvboxColors={
-    "--bg":"#282828",
-    "--fg":"#e9d9b1",
-    "--gray":"#a89984",
-    "--red":"#fb4934",
-    "--green":"#b8bb26",
-    "--blue":"#83a598",
-    "--yellow":"#fabd2f",
-    '--purple':'#d3869b'
-}
+export const GruvboxDarkColors= {
+  bg: '#282828',
+  fg: '#e9d9b1',
+  gray: '#a89984',
+  red: '#fb4934',
+  green: '#b8bb26',
+  blue: '#83a598',
+  yellow: '#fabd2f',
+  purple: '#d3869b',
+};
 
-export const gruvboxTheme=buildLegacyTheme({
-    "--black":gruvboxColors['--bg'],
-    "--white":gruvboxColors['--fg'],
+export const GruvboxDarkTheme = buildLegacyTheme({
+  '--black': GruvboxDarkColors.bg,
+  '--white': GruvboxDarkColors.fg,
 
-    "--gray":gruvboxColors['--gray'],
-    "--gray-base":gruvboxColors['--gray'],
+  '--gray': GruvboxDarkColors.gray,
+  '--gray-base': GruvboxDarkColors.gray,
 
-    "--component-bg":gruvboxColors['--bg'],
-    "--component-text-color":gruvboxColors['--fg'],
+  '--component-bg': GruvboxDarkColors.bg,
+  '--component-text-color': GruvboxDarkColors.fg,
 
-    "--brand-primary":gruvboxColors['--blue'],
+  '--brand-primary': GruvboxDarkColors.blue,
 
-    "--default-button-color":gruvboxColors['--fg'],
-    "--default-button-primary-color":gruvboxColors['--blue'],
-    "--default-button-success-color":gruvboxColors['--green'],
-    "--default-button-warning-color":gruvboxColors['--yellow'],
-    "--default-button-danger-color":gruvboxColors['--red'],
+  '--default-button-color': GruvboxDarkColors.fg,
+  '--default-button-primary-color': GruvboxDarkColors.blue,
+  '--default-button-success-color': GruvboxDarkColors.green,
+  '--default-button-warning-color': GruvboxDarkColors.yellow,
+  '--default-button-danger-color': GruvboxDarkColors.red,
 
-    "--state-info-color":gruvboxColors['--blue'],
-    "--state-success-color":gruvboxColors['--green'],
-    "--state-warning-color":gruvboxColors['--yellow'],
-    "--state-danger-color":gruvboxColors['--red'],
+  '--state-info-color': GruvboxDarkColors.blue,
+  '--state-success-color': GruvboxDarkColors.green,
+  '--state-warning-color': GruvboxDarkColors.yellow,
+  '--state-danger-color': GruvboxDarkColors.red,
 
-    "--main-navigation-color":gruvboxColors['--bg'],
-    "--main-navigation-color--inverted":gruvboxColors['--fg'],
+  '--main-navigation-color': GruvboxDarkColors.bg,
+  '--main-navigation-color--inverted': GruvboxDarkColors.fg,
 
-    "--focus-color":gruvboxColors['--purple'],
-})
+  '--focus-color': GruvboxDarkColors.purple,
+});

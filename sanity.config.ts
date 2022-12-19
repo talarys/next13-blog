@@ -2,7 +2,7 @@ import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 import { visionTool } from '@sanity/vision';
 import { schemaTypes } from './schemas';
-import { gruvboxTheme } from './theme';
+import { GruvboxDarkTheme } from './theme';
 import StudioLogo from './components/StudioLogo';
 import StudioNavbar from './components/StudioNavbar';
 
@@ -28,5 +28,5 @@ export default defineConfig({
       navbar: StudioNavbar,
     },
   },
-  theme: gruvboxTheme,
+  theme: GruvboxDarkTheme,
 });
