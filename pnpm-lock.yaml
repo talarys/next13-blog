@@ -12,6 +12,7 @@ specifiers:
   eslint-config-next: 13.0.6
   next: 13.0.6
   next-sanity: ^3.1.4
+  normalize.css: ^8.0.1
   postcss: ^8.4.20
   prettier: ^2.8.1
   react: 18.2.0
@@ -30,6 +31,7 @@ dependencies:
   '@types/react-dom': 18.0.9
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
   next-sanity: 3.1.4_6pybodrkbhmd7txvxayx6axkri
+  normalize.css: 8.0.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -5613,6 +5615,10 @@ packages:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
+    dev: false
 
   /npm-run-path/3.1.0:
     resolution: {integrity: sha512-Dbl4A/VfiVGLgQv29URL9xshU8XDY1GeLy+fsaZ1AA8JDSfjvr5P5+pzRbWqRSBxk6/DW7MIh8lTM/PaGnP2kg==}
